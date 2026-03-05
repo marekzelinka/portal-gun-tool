@@ -1,0 +1,25 @@
+[project]
+name = "portal-gun-tool"
+version = "1.0.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Marek Zelinka", email = "mzelinka17@gmail.com" }
+]
+requires-python = ">=3.14"
+dependencies = [
+    "typer>=0.24.1",
+]
+
+[project.scripts]
+portal-gun-tool = "portal_gun_tool:app"
+
+[build-system]
+requires = ["uv_build>=0.10.7,<0.11.0"]
+build-backend = "uv_build"
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.4",
+    "ty>=0.0.20",
+]
