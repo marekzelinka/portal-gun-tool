@@ -32,5 +32,6 @@ uv build
 
 ```sh
 export UV_PUBLISH_TOKEN=[token]
+uv version
 uv publish
 ```
