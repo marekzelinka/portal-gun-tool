@@ -1,7 +1,7 @@
 [project]
 name = "portal-gun-tool"
-version = "1.0.0"
-description = "Add your description here"
+version = "1.0.2"
+description = "Awesome Portal Gun"
 readme = "README.md"
 authors = [
     { name = "Marek Zelinka", email = "mzelinka17@gmail.com" }
