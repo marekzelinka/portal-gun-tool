@@ -1,3 +1,1 @@
-from portal_gun_tool.main import app
-
-app()
+from portal_gun_tool.main import app  # noqa: F401

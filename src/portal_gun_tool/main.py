@@ -20,7 +20,7 @@ def version_callback(value: bool) -> None:
 @app.callback()
 def main(
     version: Annotated[
-        bool | None, typer.Option(callback=version_callback, is_eager=True)
+        bool | None, typer.Option("--version", callback=version_callback, is_eager=True)
     ] = None,
 ) -> None:
     """
