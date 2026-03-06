@@ -1,6 +1,6 @@
 [project]
 name = "portal-gun-tool"
-version = "1.0.2"
+version = "1.0.3"
 description = "Awesome Portal Gun"
 readme = "README.md"
 authors = [
