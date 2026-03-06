@@ -1,4 +1,4 @@
-__project_name__ = "portal_gun_tool"
+__project_name__ = "portal-gun-tool"
 
 
 def get_version() -> str:
